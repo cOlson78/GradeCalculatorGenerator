@@ -65,6 +65,10 @@ public class Main {
 
 		//Final message to console
 		System.out.println("The grade calculator file has been saved to Output.java.");
+		
+		//Close scanner and printstream
+		input.close();
+		output.close();
 
 	}
 
